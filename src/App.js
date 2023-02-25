@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <div className="container">
       <header className="App-header">
-      <h1>Hello World!</h1>
+      <h1>Dictionary App</h1>
       <SearchEngine />
      </header>
      <footer>
