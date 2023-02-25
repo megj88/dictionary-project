@@ -12,7 +12,7 @@ function App() {
       <SearchEngine />
      </header>
      <footer>
-      <small>Coded by Megan Jones</small>
+      <small>Coded by <a href="https://github.com/megj88/dictionary-project" target="_blank" rel="noopener noreferrer">Megan Jones</a></small>
      </footer>
     </div>
     </div>
