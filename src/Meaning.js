@@ -1,6 +1,7 @@
 import React from "react";
 import Synonyms from "./Synonyms.js";
 import "./Meaning.css"
+import { BsFillCaretRightFill } from "react-icons/bs";
 
 
 export default function Meaning(props) {
@@ -11,7 +12,7 @@ return (
     return (
         <div key={index}>
             <div className="Definition">
-            {definition.definition}
+            <span className="arrow"><BsFillCaretRightFill /></span> {definition.definition}
             </div>
             <div className="Example">
             <em>
