@@ -1,0 +1,21 @@
+.Search section {
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 20px 20px rgb(0 0 0 / 10%);
+}
+
+.Search input {
+    width: 100%;
+    padding: 12px 6px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    color: #333;
+}
+
+.Search .Hint {
+    font-size: 11px;
+    margin-top: 5px;
+    color: #333;
+}
