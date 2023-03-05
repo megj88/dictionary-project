@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./SearchEngine.css"
-
 import Results from "./Results"
 
-export default function SearchEngine() {
-    let [keyword, setKeyword] = useState("");
+export default function SearchEngine(props) {
+    let [keyword, setKeyword] = useState(props.defaultKeyword);
     let [results, setResults] = useState(null);
     let [loaded, setLoaded] = useState(false);
   
